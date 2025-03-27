@@ -16,24 +16,3 @@ A console-based Java application for librarians to manage book inventory with fu
 # Compile & Run
 javac -d out src/main/java/com/library/*.java src/main/java/com/library/**/*.java
 java -cp out com.library.Main
-
-
-##Project Structure
-library-management-system/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── library/
-│   │   │           ├── model/
-│   │   │           │   └── Book.java
-│   │   │           ├── exception/
-│   │   │           │   ├── BookNotFoundException.java
-│   │   │           │   └── InvalidBookException.java
-│   │   │           ├── service/
-│   │   │           │   └── LibraryService.java
-│   │   │           ├── util/
-│   │   │           │   └── ValidationUtil.java
-│   │   │           └── Main.java
-├── .gitignore
-└── README.md
