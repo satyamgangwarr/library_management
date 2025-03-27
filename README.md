@@ -1,20 +1,18 @@
-# Library Management System
+# 🏛️ Library Management System
 
-![Java](https://img.shields.io/badge/Java-17-blue)
-![Maven](https://img.shields.io/badge/Maven-3.8.6-red)
+A console-based Java application for librarians to manage book inventory with full CRUD operations.
 
-A console application for librarians to manage books.
+## 📦 Features
+- **Add/Remove Books** with validation
+- **Search** by ID or title
+- **Update** book details
+- **View All Books** in catalog
+- **Input Validation** (unique IDs, non-empty fields)
 
-## Features
-- Add/remove books
-- Search by title/ID
-- Update availability status
+  ![Screenshot 2025-03-27 224608](https://github.com/user-attachments/assets/90ade08e-7dc6-4a05-ae83-436c7660a640)
 
-## How to Run
-``bash
-# Clone repo
-git clone https://github.com/YOUR_USERNAME/library-management-system.git
 
-# Build and run
-mvn package
-java -jar target/library-system-1.0.jar
+## 🚀 Quick Start
+# Compile & Run
+javac -d out src/main/java/com/library/*.java src/main/java/com/library/**/*.java
+java -cp out com.library.Main
